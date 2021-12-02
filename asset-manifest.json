@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/yuchi0307/react-http/static/css/main.412ab938.chunk.css",
+    "main.js": "/yuchi0307/react-http/static/js/main.adf83782.chunk.js",
+    "main.js.map": "/yuchi0307/react-http/static/js/main.adf83782.chunk.js.map",
+    "runtime-main.js": "/yuchi0307/react-http/static/js/runtime-main.ef28c79b.js",
+    "runtime-main.js.map": "/yuchi0307/react-http/static/js/runtime-main.ef28c79b.js.map",
+    "static/js/2.7a48d499.chunk.js": "/yuchi0307/react-http/static/js/2.7a48d499.chunk.js",
+    "static/js/2.7a48d499.chunk.js.map": "/yuchi0307/react-http/static/js/2.7a48d499.chunk.js.map",
+    "index.html": "/yuchi0307/react-http/index.html",
+    "static/css/main.412ab938.chunk.css.map": "/yuchi0307/react-http/static/css/main.412ab938.chunk.css.map",
+    "static/js/2.7a48d499.chunk.js.LICENSE.txt": "/yuchi0307/react-http/static/js/2.7a48d499.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef28c79b.js",
+    "static/js/2.7a48d499.chunk.js",
+    "static/css/main.412ab938.chunk.css",
+    "static/js/main.adf83782.chunk.js"
+  ]
+}
