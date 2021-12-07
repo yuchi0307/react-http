@@ -18,7 +18,7 @@ function App() {
   }
   //useHttp回傳的物件放在這，將sendRequest轉名為fetchTasks
   const {isLoading, error, sendRequest: fetchTasks} = useHttp(
-    { url: 'https://tasks-44545-default-rtdb.firebaseio.com/task.json' },
+    { url: 'https://tasks-44545-default-rtdb.firebaseio.com/tasks.json' },
     transformTask
   );
 
