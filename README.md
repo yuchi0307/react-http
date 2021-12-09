@@ -56,3 +56,5 @@ function is an <strong>obj</strong> in javascript<br/>
 and everytime a function is recreated even if it contains the same logic<br/>
 it's a brand new object <strong>in memory</strong>, and therefore useEffect would treat it as a new value,<br/>
 and would re execute it!<br/>
+<h3>結果論: 把funciton當dependency條件,使用useCallback</h3>
+
