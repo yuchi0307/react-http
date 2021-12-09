@@ -48,8 +48,9 @@ function app(){
 useEffect(fetchTasks(),[fetchTasks])
 ```
 
-fetchTasks()為我custom hook 中管理state狀態的function,一觸發就會使組件重新渲染<br/>
+![1_hqBTU4z7inqygcjxHifvuw](https://user-images.githubusercontent.com/67968321/145365455-3214f9d6-4c5b-4f01-8b86-9efcb16a7b28.png)
 
+source: <a href="https://javascript.plainenglish.io/5-useeffect-infinite-loop-patterns-2dc9d45a253f">5 useEffect Infinite Loop Patterns</a>
 <br/>
 function is an <strong>obj</strong> in javascript<br/>
 and everytime a function is recreated even if it contains the same logic<br/>
