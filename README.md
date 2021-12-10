@@ -56,5 +56,15 @@ function is an <strong>obj</strong> in javascript<br/>
 and everytime a function is recreated even if it contains the same logic<br/>
 it's a brand new object <strong>in memory</strong>, and therefore useEffect would treat it as a new value,<br/>
 and would re execute it!<br/>
-<h3>結果論: 把funciton當dependency條件,使用useCallback</h3>
+<h3>結果論: </h3>
+useEffect(callback, [])中的callback(為data or function)如果設定在某個component中,這個callback必須設定為其dependency<br/>
+例如:<br/>
 
+```
+function app(){
+  const{isLoading, error, sendRequest: fetchTasks} = useHttp();
+  const fetchTasks =()=>{}; //步驟略
+  
+  useEffect(fetchTasks(),[fetchTasks]); //重點!但會造成infinite loop所以還要再繼續改
+}
+```
